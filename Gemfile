@@ -1,12 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "lita"
+gem 'lita'
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 
 # Uncomment to use the IRC adapter
-gem "lita-irc"
+gem 'lita-irc'
 
 # Add handlers to give Lita new functionality.
 # For example:

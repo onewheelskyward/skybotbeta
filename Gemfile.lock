@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/onewheelskyward/lita-forecast-io.git
-  revision: 547db294d0b982d93319758b23f6b1d713964f3f
+  revision: 49fc86c7b2f1ddca2567d637bc46e2ba5917ace5
   branch: master
   specs:
     lita-forecast-io (0.0.1)
@@ -22,7 +22,7 @@ GIT
 
 GIT
   remote: git://github.com/onewheelskyward/lita-ping.git
-  revision: fd70529a80e765d81c20bf78d7e81802d83016d8
+  revision: 1de8dbfd883993ac8b014eb17a54934fd6e9b57e
   branch: master
   specs:
     lita-ping (0.0.0)
@@ -59,6 +59,7 @@ GEM
     lita-irc (2.0.0)
       cinch (>= 2.0)
       lita (>= 4.0)
+    magic-eightball (0.0.1)
     multi_json (1.10.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
@@ -85,3 +86,4 @@ DEPENDENCIES
   lita-google-images!
   lita-irc
   lita-ping!
+  magic-eightball
