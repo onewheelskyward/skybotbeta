@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/onewheelskyward/lita-forecast-io.git
-  revision: 49fc86c7b2f1ddca2567d637bc46e2ba5917ace5
+  revision: 08986470c5bf3a40ecb8197e45118b530ba5947c
   branch: master
   specs:
     lita-forecast-io (0.0.1)

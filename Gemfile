@@ -15,6 +15,7 @@ gem 'lita-irc'
 gem 'lita-forecast-io', github: 'onewheelskyward/lita-forecast-io', branch: :master
 gem 'geocoder'
 gem 'httparty'
+gem 'magic-eightball'  # This shouldn't have to happen, but it does.  !#$%%$!#%^#@^$
 
 gem 'lita-google', github: 'onewheelskyward/lita-google'
 gem 'lita-google-images', github: 'onewheelskyward/lita-google-images'
