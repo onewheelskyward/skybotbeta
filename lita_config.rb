@@ -1,23 +1,29 @@
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = "skybotbeta"
+  my_name_is = 'skybotbeta'
+  config.robot.name = my_name_is
 
   config.robot.adapter = :irc
-  config.adapters.irc.server = "irc.freenode.net"
-  config.adapters.irc.channels = ["#pdxbots"]
-  config.adapters.irc.user = "skybotbeta"
-  config.adapters.irc.realname = "skybotbeta"
-  config.adapters.irc.password = "secret"
+  config.adapters.irc.server = 'irc.freenode.net'
+  config.adapters.irc.channels = ['#pdxbots']
+  config.adapters.irc.user = my_name_is
+  config.adapters.irc.realname = my_name_is
+  config.adapters.irc.password = ''
   config.adapters.irc.cinch = lambda do |cinch_config|
     cinch_config.max_reconnect_delay = 123
   end
+
+  config.handlers.google.safe_search = :off
+  config.handlers.forecast_io.api_uri = 'https://api.forecast.io/forecast/'
+  config.handlers.forecast_io.api_key = 'redacted'
+
   # The locale code for the language to use.
   # config.robot.locale = :en
 
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
   # Messages at the selected level and above will be logged.
-  config.robot.log_level = :info
+  config.robot.log_level = :debug
 
   # An array of user IDs that are considered administrators. These users
   # the ability to add and remove other users from authorization groups.
