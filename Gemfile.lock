@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/onewheelskyward/lita-forecast-io.git
-  revision: 1835334999729034736a613b3aa627f6434d5c5a
+  revision: 9c463c4be058e3a4554008a1edb9f9a35e2760c4
   branch: master
   specs:
     lita-forecast-io (0.0.1)
@@ -22,7 +22,8 @@ GIT
 
 GIT
   remote: git://github.com/onewheelskyward/lita-irc.git
-  revision: b69fd49ef6dfe46332c800ad00c9e2934da517b6
+  revision: b3ec08a643f684649ce248aab85a3ad3e606df59
+  branch: better-messages
   specs:
     lita-irc (2.0.0)
       cinch (>= 2.0)
